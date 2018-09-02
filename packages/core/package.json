@@ -35,6 +35,7 @@
   ],
   "license": "MIT",
   "name": "@techpacket-build-tools/core",
+  "author": "TechPacket",
   "publishConfig": {
     "access": "public"
   },
