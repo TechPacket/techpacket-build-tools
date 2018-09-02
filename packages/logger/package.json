@@ -5,7 +5,7 @@
   },
   "deprecated": false,
   "files": [
-    "index.js"
+    "*.js"
   ],
   "license": "MIT",
   "name": "@techpacket-build-tools/logger",
