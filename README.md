@@ -3,7 +3,7 @@
 ## Installing
 
 ```bash
-npm install git+https://git@github.com/visionmedia/express.git --save-dev
+npm install git+https://github.com/TechPacket/techpacket-build-tools.git --save-dev
 ```
 
 ## Configuration
