@@ -3,14 +3,11 @@
   "version": "1.0.0",
   "command": {
     "publish": {
-      "ignoreChanges": [
-        "*.md",
-        "**/example/**",
-        "**/test/**"
-      ]
+      "exact": "true",
+      "forcePublish": "*",
+      "gitRemote": "upstream"
     }
   },
-  "packages": [
-    "packages/*"
-  ]
+  "registry": "https://registry.npmjs.org/",
+  "useWorkspaces": true
 }
