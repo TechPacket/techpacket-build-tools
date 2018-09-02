@@ -27,10 +27,6 @@ npm install git+https://github.com/TechPacket/techpacket-build-tools.git --save-
     // PLUGINS
 
     plugins: [require('techpacket-build-tools/packages/plugin-typescript')()],
-    
-    // CONSOLE
-
-    consoleHideErros: true
 
     };
     ```
