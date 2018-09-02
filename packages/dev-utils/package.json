@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "react-error-overlay": "^4.0.0",
+    "shell-quote": "^1.6.1",
+    "sockjs-client": "^1.1.4",
+    "strip-ansi": "^4.0.0"
+  },
+  "files": [
+    "*.js"
+  ],
+  "license": "MIT",
+  "name": "@techpacket-build-tools/dev-utils",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TechPacket/techpacket-build-tools/tree/master/packages/dev-utils"
+  },
+  "scripts": {
+    "test": "echo fine"
+  },
+  "version": "1.0.0-alpha.1"
+}

@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "log-update": "^2.3.0"
+  },
+  "deprecated": false,
+  "files": [
+    "index.js"
+  ],
+  "license": "MIT",
+  "name": "@techpacket-build-tools/logger",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TechPacket/techpacket-build-tools/tree/master/packages/logger"
+  },
+  "version": "1.0.0-alpha.1"
+}
