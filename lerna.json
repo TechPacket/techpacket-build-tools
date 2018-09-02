@@ -1,13 +1,15 @@
 {
   "lerna": "2.9.1",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "registry": "https://registry.npmjs.org/",
+  "useWorkspaces": true,
   "command": {
     "publish": {
-      "exact": "true",
-      "forcePublish": "*",
-      "gitRemote": "upstream"
+      "ignoreChanges": [
+        "*.md",
+        "**/example/**",
+        "**/test/**"
+      ]
     }
-  },
-  "registry": "https://registry.npmjs.org/",
-  "useWorkspaces": true
+  }
 }
