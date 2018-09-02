@@ -30,7 +30,6 @@
     "@techpacket-build-tools/logger": "^1.0.4",
     "@techpacket-build-tools/preset-babel-base": "^1.0.2",
     "address": "^1.0.1",
-    "ansi-styles": "^3.2.1",
     "cac": "^4.4.1",
     "chalk": "2.4.1",
     "chokidar": "^2.0.3",
