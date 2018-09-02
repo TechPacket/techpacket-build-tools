@@ -3,7 +3,7 @@
 ## Installing
 
 ```bash
-npm install git+https://github.com/TechPacket/techpacket-build-tools.git --save-dev
+npm install techpacket-build-tools --save
 ```
 
 ## Configuration
