@@ -18,7 +18,7 @@
   "files": [
     "bin",
     "lib",
-    "packages"
+    "packages/**/*"
   ],
   "repository": "git@github.com:TechPacket/techpacket-build-tools.git",
   "author": "TechPacket",
