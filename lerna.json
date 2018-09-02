@@ -3,6 +3,9 @@
   "version": "1.0.2",
   "registry": "https://registry.npmjs.org/",
   "useWorkspaces": true,
+  "packages": [
+    "packages/*"
+  ],
   "command": {
     "publish": {
       "ignoreChanges": [
