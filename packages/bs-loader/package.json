@@ -1,6 +1,6 @@
 {
   "name": "@techpacket-build-tools/bs-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publishConfig": {
     "access": "public"
   },
@@ -8,5 +8,5 @@
     "index.js"
   ],
   "license": "MIT",
-  "gitHead": "884ac30092a3601becc4efd4f44013ad34ed88a6"
+  "gitHead": "b378af4f5f8563cb917bacdebd4b9d3c92a19e5e"
 }

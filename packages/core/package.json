@@ -1,10 +1,10 @@
 {
   "dependencies": {
     "@babel/core": "^7.0.0-beta.56",
-    "@techpacket-build-tools/bs-loader": "^1.0.1",
-    "@techpacket-build-tools/dev-utils": "^1.0.1",
-    "@techpacket-build-tools/logger": "^1.0.1",
-    "@techpacket-build-tools/plugin-webpack-logger": "^1.0.1",
+    "@techpacket-build-tools/bs-loader": "^1.0.2",
+    "@techpacket-build-tools/dev-utils": "^1.0.2",
+    "@techpacket-build-tools/logger": "^1.0.2",
+    "@techpacket-build-tools/plugin-webpack-logger": "^1.0.2",
     "babel-loader": "^8.0.0-beta.2",
     "chalk": "^2.3.2",
     "copy-webpack-plugin": "^4.5.0",
@@ -43,6 +43,6 @@
     "type": "git",
     "url": "https://github.com/TechPacket/techpacket-build-tools/tree/master/packages/core"
   },
-  "version": "1.0.1",
-  "gitHead": "884ac30092a3601becc4efd4f44013ad34ed88a6"
+  "version": "1.0.2",
+  "gitHead": "b378af4f5f8563cb917bacdebd4b9d3c92a19e5e"
 }
