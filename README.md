@@ -12,21 +12,21 @@ npm install techpacket-build-tools --save
    ```bash
     module.exports = {
 
-    // HTML OPTIONS
+        // HTML OPTIONS
 
-    html: {
-        templatePath: './packages/client/src',
-    },
+        html: {
+            templatePath: './packages/client/src',
+        },
 
-    // OPTIONS
+        // OPTIONS
 
-    publicPath: './packages/client',
-    outDir: './packages/client/dist',
-    entry: './packages/client/src/app.js',
+        publicPath: './packages/client',
+        outDir: './packages/client/dist',
+        entry: './packages/client/src/app.js',
 
-    // PLUGINS
+        // PLUGINS
 
-    plugins: [require('techpacket-build-tools/packages/plugin-typescript')()],
+        plugins: [require('techpacket-build-tools/packages/plugin-typescript')()],
 
     };
     ```
