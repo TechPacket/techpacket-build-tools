@@ -10,7 +10,7 @@ const DEPS = {
     'stylus-loader': {
         deps: ['stylus', 'stylus-loader'],
         dev: true,
-    }
+    },
 };
 
 module.exports = function(name) {
