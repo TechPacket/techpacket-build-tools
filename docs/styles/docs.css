@@ -1,0 +1,40 @@
+header .md-header-nav .md-flex__cell {
+    vertical-align: middle;
+}
+
+header .md-header-nav .md-logo {
+    padding: 0;
+    margin: 0;
+}
+
+header .md-header-nav .md-logo .md-icon {
+    background: url('https://avatars3.githubusercontent.com/u/41538082?s=200&v=4');
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+}
+
+header.md-header[data-md-state="shadow"] {
+    box-shadow: none;
+    border-bottom: 1px solid #d2d6d9;
+}
+
+body {
+    background: #f5f8fa;
+}
+
+.md-footer {
+    display: none;
+}
+
+.md-sidebar__scrollwrap .md-nav--secondary {
+    border-radius: 6px;
+    background-color: #ebf1f5;
+    text-align: left;
+}
+
+@media only screen and (min-width: 60em) {
+    .md-search {
+        padding: 0;
+    }
+}

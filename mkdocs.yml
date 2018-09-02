@@ -1,0 +1,34 @@
+docs_dir: 'docs'
+site_dir: 'docs/build'
+strict: true
+use_directory_urls: false
+
+site_name: 'Techpacket Build Tools Docs'
+site_description: '...'
+repo_name: 'techpacket-build-tools'
+repo_url: 'https://github.com/TechPacket/techpacket-build-tools'
+
+# https://squidfunk.github.io/mkdocs-material/getting-started/#configuration
+theme:
+  name: 'material'
+  palette:
+    primary: 'white'
+    accent: 'white'
+  # Disable the default top left logo until we sort out our custom one.
+  logo:
+    icon: ' '
+
+extra_css:
+  - styles/docs.css
+
+# http://www.mkdocs.org/user-guide/writing-your-docs/#configure-pages-and-navigation
+nav:
+  - Getting started: README.md
+
+# https://squidfunk.github.io/mkdocs-material/getting-started/#extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true

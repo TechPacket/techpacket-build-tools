@@ -1,0 +1,31 @@
+{
+  "name": "@techpacket-build-tools/preset-babel-base",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "echo fine"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.0.0-beta.56",
+    "@babel/plugin-proposal-decorators": "^7.0.0-beta.56",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.56",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0-beta.56",
+    "@babel/plugin-transform-react-jsx": "^7.0.0-beta.56",
+    "@babel/plugin-transform-runtime": "^7.0.0-beta.56",
+    "@babel/preset-env": "^7.0.0-beta.56",
+    "@babel/runtime": "^7.0.0-beta.56",
+    "babel-macros": "^1.2.0",
+    "babel-plugin-react-require": "^3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.56"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TechPacket/techpacket-build-tools/tree/master/packages/preset-babel-base"
+  },
+  "version": "1.0.0-alpha.1"
+}

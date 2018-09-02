@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "baseUrl": "packages/client",
+    "outDir": "packages/client/build",
+    "module": "commonjs",
+    "target": "es5",
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDir": "./",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strict": true
+  },
+  "exclude": [
+    "node_modules",
+    "build",
+    "dist",
+    "acceptance-tests",
+    "webpack",
+    "jest",
+    "**/*.test.tsx"
+  ],
+  "types": [
+    "typePatches",
+    "node_modules/@types"
+  ]
+}
