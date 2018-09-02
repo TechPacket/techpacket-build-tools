@@ -1,0 +1,12 @@
+{
+    "name": "@techpacket-build-tools/errors",
+    "version": "1.0.0-alpha.1",
+    "publishConfig": {
+      "access": "public"
+    },
+    "files": [
+      "index.js"
+    ],
+    "license": "MIT"
+  }
+  

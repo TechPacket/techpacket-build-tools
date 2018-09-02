@@ -3,7 +3,7 @@
 // LIBRARIES
 const importLocalFile = require('import-local-file');
 // PACKAGES
-const logger = require('../packages/logger');
+const logger = require('@techpacket-build-tools/logger');
 
 const localFile = importLocalFile(__filename);
 const forceGlobal = process.argv.includes('--force-global') || process.argv.includes('--forceGlobal');

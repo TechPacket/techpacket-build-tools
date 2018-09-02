@@ -1,6 +1,7 @@
+// LIBRARIES
 const util = require('util');
 const logUpdate = require('log-update');
-
+// ICONS
 const getIcons = require('./icons');
 
 class Logger {

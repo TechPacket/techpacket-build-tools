@@ -10,7 +10,6 @@
     "postinstall": "lerna bootstrap",
     "docs:serve": "mkdocs serve",
     "docs:bootstrap": "pip install -r docs/requirements.txt"
- 
   },
   "engines": {
     "npm": ">=5",
@@ -19,7 +18,7 @@
   "files": [
     "bin",
     "lib",
-    "packages/**/*"
+    "packages"
   ],
   "repository": "git@github.com:TechPacket/techpacket-build-tools.git",
   "author": "TechPacket",
@@ -28,6 +27,9 @@
     "techpacket-build-tools": "bin/cli.js"
   },
   "dependencies": {
+    "@techpacket-build-tools/core": "file:packages/core",
+    "@techpacket-build-tools/errors": "file:packages/errors",
+    "@techpacket-build-tools/logger": "file:packages/logger",
     "address": "^1.0.1",
     "cac": "^4.4.1",
     "chalk": "^2.0.1",

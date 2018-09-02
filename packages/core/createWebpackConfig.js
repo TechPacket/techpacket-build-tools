@@ -29,7 +29,7 @@ exports.apply = techpacketBuildTools => {
     }
 
     function setHMR(config) {
-        const devClient = require.resolve('../dev-utils/hotDevClient');
+        const devClient = require.resolve('@techpacket-build-tools/dev-utils/hotDevClient');
 
         // Add hmr entry using `hotEntry` option
         if (techpacketBuildTools.options.hotReload) {
@@ -130,10 +130,10 @@ exports.apply = techpacketBuildTools => {
         }
 
         if (process.env.NODE_ENV !== 'test') {
-            config.plugin('plugin-webpack-logger').use(require('../plugin-webpack-logger'), [
+            config.plugin('plugin-webpack-logger').use(require('@techpacket-build-tools/plugin-webpack-logger'), [
                 {
                     showFileStats: techpacketBuildTools.command === 'build',
-                    logger: require('../logger'),
+                    logger: require('@techpacket-build-tools/logger'),
                     clearConsole: techpacketBuildTools.options.clearConsole,
                 },
             ]);

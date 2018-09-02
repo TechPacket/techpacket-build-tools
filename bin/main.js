@@ -1,11 +1,11 @@
 // LIBRARIES
 const updateNotifier = require('update-notifier');
 const cac = require('cac');
+// PACKAGES
+const logger = require('@techpacket-build-tools/logger');
 // COMPONENTS
 const isPath = require('../lib/utils/isPath');
 const TechpacketBuildTools = require('../lib');
-// PACKAGES
-const logger = require('../packages/logger');
 // PACKAGE
 const pkg = require('../package');
 
