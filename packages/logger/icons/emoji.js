@@ -6,7 +6,7 @@ const extracSpace = emoji => emoji + (isMacTerm ? '' : ' ');
 module.exports = {
     progress: supportsEmoji ? extracSpace('⏳') : '∞',
     success: supportsEmoji ? extracSpace(' ') : '√',
-    error: supportsEmoji ? extracSpace('🚩') : '×',
+    error: supportsEmoji ? extracSpace(' ') : '×',
     // Always add space
     warning: supportsEmoji ? `⚠️ ` : '‼',
 };

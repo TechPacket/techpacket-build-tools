@@ -10,15 +10,7 @@ const DEPS = {
     'stylus-loader': {
         deps: ['stylus', 'stylus-loader'],
         dev: true,
-    },
-    'bs-loader': {
-        deps: ['bs-loader', 'bs-platform'],
-        dev: true,
-    },
-    'bs-platform': {
-        deps: ['bs-platform'],
-        dev: true,
-    },
+    }
 };
 
 module.exports = function(name) {

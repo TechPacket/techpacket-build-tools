@@ -98,10 +98,6 @@ exports.apply = techpacketBuildTools => {
     }
 
     function setPlugins(config) {
-        if (command === 'develop' || command === 'watch') {
-            // config.plugin('timefix').use(require('time-fix-plugin'));
-        }
-
         config
             .plugin('define')
             .use(webpack.DefinePlugin, [
@@ -225,10 +221,6 @@ exports.apply = techpacketBuildTools => {
             require('./rules/graphql')(config);
         }
 
-        function setReason(config) {
-            require('./rules/reason')(config);
-        }
-
         setOutput(config);
         setPerformance(config);
         setExternals(config);
@@ -245,7 +237,6 @@ exports.apply = techpacketBuildTools => {
         setCopyFiles(config);
         setHTML(config);
         setGraphql(config);
-        setReason(config);
 
         // installed by `yarn global add`
         if (yarnGlobal.inDirectory(__dirname)) {
