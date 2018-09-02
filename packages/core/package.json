@@ -43,5 +43,5 @@
     "type": "git",
     "url": "https://github.com/TechPacket/techpacket-build-tools/tree/master/packages/core"
   },
-  "version": "1.0.0-alpha.1"
+  "version": "1.0.0"
 }
