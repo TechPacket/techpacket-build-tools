@@ -2,7 +2,7 @@
   "name": "techpacket-build-tools",
   "types": "lib/index.d.ts",
   "main": "lib/index.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "scripts": {
     "test": "npm run lint && jest",
     "lint": "eslint .",
