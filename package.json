@@ -2,7 +2,7 @@
   "name": "techpacket-build-tools",
   "types": "lib/index.d.ts",
   "main": "lib/index.js",
-  "version": "1.0.0-alpha.1",
+  "version": "1.0.0",
   "scripts": {
     "test": "npm run lint && jest",
     "lint": "eslint .",
@@ -66,8 +66,8 @@
     "postcss-load-config": "^2.0.0",
     "prettier": "^1.10.2"
   },
-  "workspaces": [	
-    "packages/*"	
+  "workspaces": [
+    "packages/*"
   ],
   "jest": {
     "testEnvironment": "node",
