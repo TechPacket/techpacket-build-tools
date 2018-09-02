@@ -6,7 +6,6 @@
   "scripts": {
     "test": "npm run lint && jest",
     "lint": "eslint .",
-    "postinstall": "lerna bootstrap",
     "docs:serve": "mkdocs serve",
     "docs:bootstrap": "pip install -r docs/requirements.txt"
   },
@@ -25,9 +24,9 @@
     "techpacket-build-tools": "bin/cli.js"
   },
   "dependencies": {
-    "@techpacket-build-tools/core": "file:packages/core",
-    "@techpacket-build-tools/errors": "file:packages/errors",
-    "@techpacket-build-tools/logger": "file:packages/logger",
+    "@techpacket-build-tools/core": "^1.0.2",
+    "@techpacket-build-tools/errors": "^1.0.2",
+    "@techpacket-build-tools/logger": "^1.0.2",
     "address": "^1.0.1",
     "cac": "^4.4.1",
     "chalk": "^2.0.1",
