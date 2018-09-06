@@ -1,5 +1,7 @@
 # How to use
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/TechPacket/techpacket-build-tools.svg)](https://greenkeeper.io/)
+
 ## Installing
 
 ```bash
