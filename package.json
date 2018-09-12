@@ -37,7 +37,7 @@
     "find-babel-config": "^1.1.0",
     "get-port": "^4.0.0",
     "import-local-file": "^0.2.0",
-    "lodash": "^4.17.4",
+    "lodash": "^4.17.11",
     "loud-rejection": "^1.6.0",
     "opn": "^5.0.0",
     "parse-json-config": "^0.3.1",
