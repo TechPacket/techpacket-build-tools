@@ -1,5 +1,8 @@
 # How to use
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/80596bc67fc44d4189c50ce41147f22d)](https://app.codacy.com/app/vladislav-andreevich/techpacket-build-tools?utm_source=github.com&utm_medium=referral&utm_content=TechPacket/techpacket-build-tools&utm_campaign=Badge_Grade_Dashboard)
+[![Greenkeeper badge](https://badges.greenkeeper.io/TechPacket/techpacket-build-tools.svg)](https://greenkeeper.io/)
+
 ## Installing
 
 ```bash
