@@ -27,6 +27,6 @@
     "type": "git",
     "url": "https://github.com/TechPacket/techpacket-build-tools/tree/master/packages/preset-babel-base"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "gitHead": "1eb433abdd7ef036d1fd62c3a6a798c472dc8e1f"
 }
