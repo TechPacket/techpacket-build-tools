@@ -1,27 +1,27 @@
 {
   "dependencies": {
-    "@babel/core": "^7.0.0-beta.56",
-    "@techpacket-build-tools/dev-utils": "^1.0.2",
+    "@babel/core": "^7.1.0",
+    "@techpacket-build-tools/dev-utils": "^1.0.3",
     "@techpacket-build-tools/logger": "^1.0.4",
-    "@techpacket-build-tools/plugin-webpack-logger": "^1.0.2",
-    "babel-loader": "^8.0.0-beta.2",
-    "copy-webpack-plugin": "^4.5.0",
+    "@techpacket-build-tools/plugin-webpack-logger": "^1.0.3",
+    "babel-loader": "^8.0.2",
+    "copy-webpack-plugin": "^4.5.2",
     "css-loader": "^1.0.0",
     "file-loader": "^2.0.0",
-    "html-webpack-plugin": "^3.1.0",
+    "html-webpack-plugin": "^3.2.0",
     "lodash.merge": "^4.6.1",
-    "mini-css-extract-plugin": "^0.4.0",
+    "mini-css-extract-plugin": "^0.4.3",
     "node-sass": "^4.9.3",
     "optimize-css-assets-webpack-plugin": "^5.0.1",
     "postcss-loader": "^3.0.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
     "trash": "^4.3.0",
-    "url-loader": "^1.0.1",
-    "webpack": "^4.9.1",
-    "webpack-dev-server": "^3.1.3",
+    "url-loader": "^1.1.1",
+    "webpack": "^4.19.1",
+    "webpack-dev-server": "^3.1.8",
     "webpack-handle-css-loader": "^3.0.1",
-    "webpackbar": "^2.6.1"
+    "webpackbar": "^2.6.3"
   },
   "peerDependencies": {
     "@techpacket-build-tools/dev-utils": "*",
@@ -44,6 +44,6 @@
     "type": "git",
     "url": "https://github.com/TechPacket/techpacket-build-tools/tree/master/packages/core"
   },
-  "version": "1.0.3",
+  "version": "1.0.5",
   "gitHead": "1eb433abdd7ef036d1fd62c3a6a798c472dc8e1f"
 }
