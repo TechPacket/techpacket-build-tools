@@ -7,3 +7,4 @@ dist/
 example-*/
 example/
 hotDevClient.js
+packages/plugin-wordpress
