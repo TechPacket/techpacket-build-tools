@@ -68,13 +68,5 @@
   },
   "workspaces": [
     "packages/*"
-  ],
-  "jest": {
-    "testEnvironment": "node",
-    "testPathIgnorePatterns": [
-      "/node_modules/",
-      "/examples?/"
-    ],
-    "bail": true
-  }
+  ]
 }
