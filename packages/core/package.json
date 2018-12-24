@@ -19,7 +19,7 @@
     "trash": "^4.3.0",
     "url-loader": "^1.1.1",
     "webpack": "^4.19.1",
-    "webpack-dev-server": "^3.1.8",
+    "webpack-dev-server": "^3.1.14",
     "webpack-handle-css-loader": "^3.0.1",
     "webpackbar": "^2.6.3"
   },
