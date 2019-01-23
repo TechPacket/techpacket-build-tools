@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": "https://github.com/TechPacket/techpacket-build-tools/tree/master/packages/plugin-webpack-logger",
   "dependencies": {
-    "bytes": "^3.0.0",
+    "bytes": "^3.1.0",
     "chalk": "2.4.2",
     "text-table": "^0.2.0"
   },
