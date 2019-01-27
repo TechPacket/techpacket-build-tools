@@ -18,7 +18,7 @@
     "@babel/preset-env": "^7.1.0",
     "@babel/runtime": "^7.0.0",
     "babel-macros": "^2.0.0",
-    "babel-plugin-react-require": "^3.0.0"
+    "babel-plugin-react-require": "^3.0.2"
   },
   "devDependencies": {
     "@babel/core": "^7.1.0"
