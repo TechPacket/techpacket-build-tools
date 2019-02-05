@@ -32,7 +32,7 @@
     "address": "^1.0.1",
     "cac": "^6.4.0",
     "chalk": "2.4.2",
-    "chokidar": "^2.0.3",
+    "chokidar": "^2.1.0",
     "dotenv": "^6.0.0",
     "find-babel-config": "^1.1.0",
     "get-port": "^4.0.0",
