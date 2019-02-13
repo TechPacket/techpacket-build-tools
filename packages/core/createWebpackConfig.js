@@ -191,20 +191,8 @@ exports.apply = techpacketBuildTools => {
                 minimizer: [
                     {
                         apply(compiler) {
-                            const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
-                            new UglifyJsPlugin({
-                                cache: true,
-                                parallel: true,
-                                sourceMap:
-                                    techpacketBuildTools.options.sourceMap &&
-                                    /source-?map/.test(techpacketBuildTools.options.sourceMap),
-                                uglifyOptions: {
-                                    output: {
-                                        comments: false,
-                                    },
-                                    mangle: true,
-                                },
-                            }).apply(compiler);
+                            const UglifyJsPlugin = require('terser-webpack-plugin');
+                            new UglifyJsPlugin().apply(compiler);
                         },
                     },
                 ],

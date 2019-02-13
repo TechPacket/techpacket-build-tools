@@ -7,7 +7,10 @@
     "test": "npm run lint && jest",
     "lint": "eslint .",
     "docs:serve": "mkdocs serve",
-    "docs:bootstrap": "pip install -r docs/requirements.txt"
+    "docs:bootstrap": "pip install -r docs/requirements.txt",
+    "clearAllNodeModules": "find . -name 'node_modules' -exec rm -rf '{}' +",
+    "clearAllNodeLockFiles": "find . -name 'package-lock.json' -exec rm -rf '{}' +",
+    "clearAll": "npm run clearAllNodeModules && npm run clearAllNodeLockFiles"
   },
   "engines": {
     "npm": ">=5",
@@ -24,13 +27,13 @@
     "techpacket-build-tools": "bin/cli.js"
   },
   "dependencies": {
-    "@techpacket-build-tools/core": "^1.0.6",
+    "@techpacket-build-tools/core": "^1.0.7",
     "@techpacket-build-tools/dev-utils": "^1.0.3",
     "@techpacket-build-tools/errors": "^1.0.2",
     "@techpacket-build-tools/logger": "^1.0.4",
     "@techpacket-build-tools/preset-babel-base": "^1.0.3",
     "address": "^1.0.1",
-    "cac": "^6.4.0",
+    "cac": "^5.0.12",
     "chalk": "2.4.2",
     "chokidar": "^2.0.3",
     "dotenv": "^6.0.0",
@@ -40,7 +43,7 @@
     "lodash": "^4.17.11",
     "loud-rejection": "^1.6.0",
     "opn": "^5.4.0",
-    "parse-json-config": "^0.4.2",
+    "parse-json-config": "^0.3.1",
     "update-notifier": "^2.1.0",
     "use-config": "^2.0.4",
     "webpack-chain": "^4.11.0",
