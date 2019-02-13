@@ -27,7 +27,7 @@
     "techpacket-build-tools": "bin/cli.js"
   },
   "dependencies": {
-    "@techpacket-build-tools/core": "^1.0.7",
+    "@techpacket-build-tools/core": "^1.0.8",
     "@techpacket-build-tools/dev-utils": "^1.0.3",
     "@techpacket-build-tools/errors": "^1.0.2",
     "@techpacket-build-tools/logger": "^1.0.4",
