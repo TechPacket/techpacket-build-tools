@@ -192,7 +192,7 @@ exports.apply = techpacketBuildTools => {
                     {
                         apply(compiler) {
                             const UglifyJsPlugin = require('terser-webpack-plugin');
-                            new UglifyJsPlugin().apply(compiler);
+                            new UglifyJsPlugin(techpacketBuildTools.options.uglifyOptions || {}).apply(compiler);
                         },
                     },
                 ],

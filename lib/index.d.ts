@@ -52,7 +52,7 @@ interface TechpacketBuildToolsOptions {
   /**
    * The entry file of your app.
    */
-  entry?: string | string[] | {[k: string]: string[]}
+  entry?: string | string[] | { [k: string]: string[] }
 
   /**
    * The output directory of bundled files.
@@ -67,7 +67,7 @@ interface TechpacketBuildToolsOptions {
   /**
    * This option specifies the public URL of the output directory when referenced in a browser.
    */
-  publicPath?:string
+  publicPath?: string
 
   /**
    * Bundle format
@@ -112,6 +112,11 @@ interface TechpacketBuildToolsOptions {
    * Minimize bundled code.
    */
   minimize?: boolean
+
+  /**
+   * Uglify options.
+   */
+  uglifyOptions?: boolean
 
   /**
    * Customize output filenames
