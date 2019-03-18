@@ -4,7 +4,7 @@
     "react-error-overlay": "^4.0.1",
     "shell-quote": "^1.6.1",
     "sockjs-client": "^1.2.0",
-    "strip-ansi": "^4.0.0"
+    "strip-ansi": "^5.2.0"
   },
   "files": [
     "*.js"
