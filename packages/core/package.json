@@ -17,7 +17,7 @@
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.0",
     "terser-webpack-plugin": "^1.2.2",
-    "trash": "^4.3.0",
+    "trash": "^5.2.0",
     "url-loader": "^1.1.1",
     "webpack": "^4.19.1",
     "webpack-dev-server": "^3.1.8",
