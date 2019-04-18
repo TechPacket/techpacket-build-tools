@@ -21,7 +21,7 @@
     "webpack": "^4.19.1",
     "webpack-dev-server": "^3.1.8",
     "webpack-handle-css-loader": "^3.0.1",
-    "webpackbar": "^2.6.3"
+    "webpackbar": "^3.0.0"
   },
   "peerDependencies": {
     "@techpacket-build-tools/dev-utils": "*",
