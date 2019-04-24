@@ -5,7 +5,7 @@
     "@techpacket-build-tools/logger": "^1.0.4",
     "@techpacket-build-tools/plugin-webpack-logger": "^1.0.3",
     "babel-loader": "^8.0.2",
-    "copy-webpack-plugin": "^4.5.2",
+    "copy-webpack-plugin": "^5.0.3",
     "css-loader": "^1.0.0",
     "file-loader": "^3.0.0",
     "html-webpack-plugin": "^3.2.0",
