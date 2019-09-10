@@ -33,7 +33,7 @@
     "@techpacket-build-tools/logger": "^1.0.4",
     "@techpacket-build-tools/preset-babel-base": "^1.0.3",
     "address": "^1.0.1",
-    "cac": "^5.0.12",
+    "cac": "^6.5.3",
     "chalk": "2.4.2",
     "chokidar": "^2.0.3",
     "dotenv": "^6.0.0",
