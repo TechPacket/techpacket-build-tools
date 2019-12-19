@@ -21,7 +21,7 @@
     "babel-plugin-react-require": "^3.0.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.1.0"
+    "@babel/core": "^7.7.7"
   },
   "repository": {
     "type": "git",
