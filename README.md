@@ -29,7 +29,7 @@ npm install techpacket-build-tools --save
 
         // PLUGINS
 
-        plugins: [require('techpacket-build-tools/packages/plugin-typescript')()],
+        plugins: [require("@techpacket-build-tools/plugin-typescript")()],
 
     };
     ```
@@ -45,3 +45,8 @@ npm install techpacket-build-tools --save
     ```bash
     techpacket-build-tools watch --config .techpacketrc.js
     ```
+5. To use the typescript, install the plugin:
+    ```bash
+    npm i @techpacket-build-tools/plugin-typescript --save-dev
+    ```
+And also add it to the config, to the plugins section.
