@@ -52,7 +52,7 @@
     "yarn-global": "^1.1.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^7.1.2",
+    "@commitlint/cli": "^8.3.4",
     "@commitlint/config-conventional": "^7.1.2",
     "eslint": "^5.6.0",
     "eslint-config-prettier": "^3.1.0",
