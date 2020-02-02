@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "chalk": "2.4.2",
-    "log-update": "^2.3.0"
+    "log-update": "^3.4.0"
   },
   "deprecated": false,
   "files": [
