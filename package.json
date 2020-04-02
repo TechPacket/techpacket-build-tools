@@ -34,7 +34,7 @@
     "@techpacket-build-tools/preset-babel-base": "^1.0.3",
     "address": "^1.0.1",
     "cac": "^5.0.12",
-    "chalk": "2.4.2",
+    "chalk": "4.0.0",
     "chokidar": "^2.0.3",
     "dotenv": "^6.0.0",
     "find-babel-config": "^1.1.0",
